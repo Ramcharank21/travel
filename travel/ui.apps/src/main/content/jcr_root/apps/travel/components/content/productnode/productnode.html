@@ -1,0 +1,12 @@
+<form action="/bin/product" method="post">
+<div data-sly-use.blog="com.aem.community.core.serviceimpl.ProductNodeServiceImpl">
+  <h4>Composite Product</h4>
+  <ol data-sly-list.product="${blog.multiItems}">
+     <li>
+       Product Name : ${product.prodname}
+       Product Id :  ${product.prodid}  
+       Product Price : ${product.prodprice}
+     </li>
+  </ol>
+</div>
+</form>

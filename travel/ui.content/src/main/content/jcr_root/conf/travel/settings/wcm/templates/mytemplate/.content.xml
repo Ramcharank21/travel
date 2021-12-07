@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:primaryType="cq:Template">
+    <jcr:content
+        cq:lastModified="{Date}2021-11-09T18:47:32.502+05:30"
+        cq:lastModifiedBy="admin"
+        cq:templateType="/conf/travel/settings/wcm/template-types/employ-page"
+        jcr:description="this template is using as editable template"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="mytemplate"
+        status="enabled"/>
+</jcr:root>

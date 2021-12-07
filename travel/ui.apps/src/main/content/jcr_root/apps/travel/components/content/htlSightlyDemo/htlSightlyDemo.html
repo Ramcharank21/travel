@@ -1,0 +1,10 @@
+<h1>-----Sightly Demo-----</h1>
+<div data-sly-use.htl="com.aem.community.core.service.HTLSightly"></div>
+
+
+<div data-sly-include = "include1.html"></div>
+<div data-sly-include = "include2.jsp"></div>
+<div data-sly-include = "${'include3.html' @prependPath='/files'}"></div>
+<div data-sly-include="${@ file = 'include4.html'}"></div>
+<div data-sly-include="${'include4.html' @ appendPath='/append' , prependPath='/prepend'}"></div> 
+

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="63e22d4a-2cfa-4c7e-8ba4-22f490d9ac6f">
+    <jcr:content
+        cq:name="author-details"
+        cq:parentPath="/content/dam/travel"
+        jcr:description=""
+        jcr:lastModified="{Date}2021-11-14T19:12:42.547+05:30"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="Author Details"
+        contentFragment="{Boolean}true"
+        lastFragmentSave="{Date}2021-11-14T19:12:42.547+05:30">
+        <data
+            cq:model="/conf/travel/settings/dam/cfm/models/author-cf-model"
+            jcr:primaryType="nt:unstructured">
+            <master
+                jcr:mixinTypes="[cq:Taggable]"
+                jcr:primaryType="nt:unstructured"
+                authorname="Chetan Bhagat"
+                authorname_x0040_LastModified="{Date}2021-11-14T19:06:24.263+05:30"
+                datetime="{Date}2021-11-14T07:02:26.000+05:30"
+                datetime_x0040_LastModified="{Date}2021-11-14T19:06:24.267+05:30"
+                isauthor="{Boolean}true"
+                isauthor_x0040_LastModified="{Date}2021-11-14T19:06:24.266+05:30"
+                profession="author"
+                profession_x0040_LastModified="{Date}2021-11-14T19:06:24.265+05:30"/>
+            <author1
+                jcr:mixinTypes="[cq:Taggable]"
+                jcr:primaryType="nt:unstructured"
+                authorname="Salman Rushdie"
+                authorname_x0040_LastModified="{Date}2021-11-14T19:12:42.496+05:30"
+                datetime="{Date}2021-11-06T07:02:00.000+05:30"
+                datetime_x0040_LastModified="{Date}2021-11-14T19:12:42.498+05:30"
+                isauthor="{Boolean}true"
+                isauthor_x0040_LastModified="{Date}2021-11-14T19:12:42.498+05:30"
+                profession="both"
+                profession_x0040_LastModified="{Date}2021-11-14T19:12:42.497+05:30"/>
+        </data>
+        <metadata
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <model jcr:primaryType="nt:unstructured">
+            <variations jcr:primaryType="nt:unstructured">
+                <author1
+                    jcr:description=""
+                    jcr:mixinTypes="[cq:Taggable]"
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="author1"
+                    name="author1">
+                    <properties
+                        jcr:primaryType="nt:unstructured"
+                        synchronizeWithVersion="[authorname:d8370fe7-73ce-4432-bd05-675ce30dbe76,profession:d8370fe7-73ce-4432-bd05-675ce30dbe76,isauthor:d8370fe7-73ce-4432-bd05-675ce30dbe76,datetime:d8370fe7-73ce-4432-bd05-675ce30dbe76]"/>
+                </author1>
+            </variations>
+        </model>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>
